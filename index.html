@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INKORA — Nafis yozuv san'ati</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#bosh" class="logo">INK<span>ORA</span></a>
+        <nav>
+            <a href="#bosh">Bosh sahifa</a>
+            <a href="#toplam">To‘plam</a>
+            <a href="#biz">Biz haqimizda</a>
+            <a href="#aloqa">Aloqa</a>
+        </nav>
+        <button class="savat-tugma" id="savatOch">Savatcha <span id="savatSoni">0</span></button>
+    </header>
+
+    <main>
+        <section class="qahramon" id="bosh">
+            <div class="qahramon-matn">
+                <span class="kichik-sarlavha">YOZUVGA YANGI NAZAR</span>
+                <h1>Fikrlaringizga<br>qanot beruvchi<br><span>nafis ruchkalar.</span></h1>
+                <p>Yaxshi fikrlar yozuvdan boshlanadi. O‘zingizning uslubingizni ifodalovchi, qulay va zamonaviy ruchkalarni biz bilan kashf eting.</p>
+                <a href="#toplam" class="asosiy-tugma">To‘plamni ko‘rish <span>↗</span></a>
+                <a href="#tarix" class="ikkinchi-tugma">Biz haqimizda</a>
+                <div class="statistika">
+                    <div><strong>12+</strong><span>Nafis dizayn</span></div>
+                    <div><strong>100%</strong><span>Sifatli mahsulot</span></div>
+                    <div><strong>24/7</strong><span>Buyurtma imkoniyati</span></div>
+                </div>
+            </div>
+            <div class="qahramon-rasm">
+                <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=1000&q=85" alt="Nafis qora ruchka">
+                <div class="rasm-yorliq"><span>01 / 06</span><strong>Yozuvdagi mukammallik</strong></div>
+            </div>
+        </section>
+
+        <section class="afzalliklar">
+            <div><span>✦</span><p>Yuqori sifat</p></div>
+            <div><span>✧</span><p>Zamonaviy dizayn</p></div>
+            <div><span>✦</span><p>Qulay foydalanish</p></div>
+            <div><span>✧</span><p>Ajoyib sovg‘a</p></div>
+        </section>
+
+        <section class="toplam bolim" id="toplam">
+            <div class="bolim-sarlavha">
+                <div>
+                    <span class="kichik-sarlavha">BIZNING TO‘PLAM</span>
+                    <h2>O‘zingizga mosini <span>tanlang.</span></h2>
+                </div>
+                <p>Har bir ruchka — uslub, qulaylik va sifat uyg‘unligi.</p>
+            </div>
+
+            <div class="filtrlar">
+                <button class="filtr faol" data-tur="barchasi">Barchasi</button>
+                <button class="filtr" data-tur="premium">Premium</button>
+                <button class="filtr" data-tur="kundalik">Kundalik</button>
+                <button class="filtr" data-tur="sovga">Sovg‘abop</button>
+            </div>
+
+            <div class="mahsulotlar">
+                <article class="mahsulot" data-tur="premium">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">MASHHUR</span>
+                        <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=85" alt="Qora premium ruchka">
+                        <button class="korish" data-nom="Qora Premium" data-narx="180000" data-rasm="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=85">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Qora Premium</h3><p>Nafis va salobatli</p></div><strong>180 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Qora Premium" data-narx="180000">Savatchaga qo‘shish +</button>
+                </article>
+
+                <article class="mahsulot" data-tur="kundalik">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">KUNDALIK</span>
+                        <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=700&q=85" alt="Yozuv anjomlari">
+                        <button class="korish" data-nom="Klassik Ko‘k" data-narx="45000" data-rasm="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=700&q=85">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Klassik Ko‘k</h3><p>Har kun uchun qulay</p></div><strong>45 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Klassik Ko‘k" data-narx="45000">Savatchaga qo‘shish +</button>
+                </article>
+
+                <article class="mahsulot" data-tur="sovga">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">SOVG‘A UCHUN</span>
+                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85" alt="Chiroyli yozuv anjomlari">
+                        <button class="korish" data-nom="Oltin Nafislik" data-narx="250000" data-rasm="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Oltin Nafislik</h3><p>O‘zgacha sovg‘a</p></div><strong>250 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Oltin Nafislik" data-narx="250000">Savatchaga qo‘shish +</button>
+                </article>
+
+                <article class="mahsulot" data-tur="premium">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">YANGI</span>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReKsdHF7D8O2w1Z0-qkAqL2AeLXACgeQ-ci7PoeuIx8A&s=10" alt="Yozuv uchun ruchka">
+                        <button class="korish" data-nom="Zamonaviy Kumush" data-narx="150000" data-rasm="">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Zamonaviy Kumush</h3><p>Sodda va nafis</p></div><strong>150 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Zamonaviy Kumush" data-narx="150000">Savatchaga qo‘shish +</button>
+                </article>
+
+                <article class="mahsulot" data-tur="kundalik">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">QULAY</span>
+                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85" alt="Kundalik yozuv anjomi">
+                        <button class="korish" data-nom="Yengil Qadam" data-narx="35000" data-rasm="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=700&q=85">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Yengil Qadam</h3><p>O‘qish va ish uchun</p></div><strong>35 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Yengil Qadam" data-narx="35000">Savatchaga qo‘shish +</button>
+                </article>
+
+                <article class="mahsulot" data-tur="sovga">
+                    <div class="mahsulot-rasm">
+                        <span class="mahsulot-belgi">MAXSUS</span>
+                        <img src="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=85" alt="Maxsus dizayndagi ruchka">
+                        <button class="korish" data-nom="Royal To‘plam" data-narx="320000" data-rasm="https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=700&q=85">Batafsil ko‘rish ↗</button>
+                    </div>
+                    <div class="mahsulot-malumot"><div><h3>Royal To‘plam</h3><p>Unutilmas sovg‘a</p></div><strong>320 000 so‘m</strong></div>
+                    <button class="qoshish" data-nom="Royal To‘plam" data-narx="320000">Savatchaga qo‘shish +</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="hikoya bolim" id="biz">
+            <div class="hikoya-rasm">
+                <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1000&q=85" alt="Yozuv va ijod muhiti">
+            </div>
+            <div class="hikoya-matn">
+                <span class="kichik-sarlavha">BIZNING FALSAFAMIZ</span>
+                <h2>Oddiy ruchka emas.<br><span>Bu sizning uslubingiz.</span></h2>
+                <p>INKORA — yozishni qadrlaydigan insonlar uchun yaratilgan to‘plam. Biz har bir detalda nafislik, qulaylik va o‘ziga xoslikni birlashtirishga intilamiz.</p>
+                <div class="hikoya-band"><span>01</span><div><h3>O‘ylangan dizayn</h3><p>Har bir detal o‘z o‘rnida.</p></div></div>
+                <div class="hikoya-band"><span>02</span><div><h3>Yozish qulayligi</h3><p>Har bir satrda yengillik.</p></div></div>
+                <div class="hikoya-band"><span>03</span><div><h3>Sovg‘aga munosib</h3><p>Yaqinlaringiz uchun nafis tanlov.</p></div></div>
+            </div>
+        </section>
+
+        <section class="taklif">
+            <span class="kichik-sarlavha">YANGI FIKRLAR SHU YERDAN BOSHLANADI</span>
+            <h2>Fikringizni yozing.<br><span>Orzularingizni yarating.</span></h2>
+            <a href="#toplam" class="asosiy-tugma">O‘zingizga mos ruchkani toping ↗</a>
+        </section>
+
+        <section class="aloqa bolim" id="aloqa">
+            <div><span class="kichik-sarlavha">BIZ BILAN BOG‘LANING</span><h2>Savolingiz bormi?</h2><p>Bizga xabar qoldiring, siz bilan bog‘lanamiz.</p></div>
+            <form id="aloqaFormasi">
+                <input type="text" id="ism" placeholder="Ismingiz" required>
+                <input type="email" id="email" placeholder="Elektron pochtangiz" required>
+                <textarea id="xabar" placeholder="Xabaringizni yozing..." required></textarea>
+                <button type="submit" class="asosiy-tugma">Xabar yuborish ↗</button>
+                <p id="formaNatija"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a href="#bosh" class="logo">INK<span>ORA</span></a>
+        <p>Har bir so‘zda o‘ziga xoslik.</p>
+        <div><a href="#bosh">Bosh sahifa</a><a href="#toplam">To‘plam</a><a href="#aloqa">Aloqa</a></div>
+        <span>© 2026 INKORA. Barcha huquqlar himoyalangan.</span>
+    </footer>
+
+    <div class="qoplama" id="qoplama"></div>
+    <aside class="savat" id="savat">
+        <div class="savat-sarlavha"><h2>Savatchangiz</h2><button id="savatYop">✕</button></div>
+        <div id="savatMahsulotlar"><p class="bosh-savat">Hozircha savatchangiz bo‘sh.</p></div>
+        <div class="savat-past"><div><span>Jami:</span><strong id="jami">0 so‘m</strong></div><button id="buyurtma" class="asosiy-tugma">Buyurtma berish ↗</button></div>
+    </aside>
+
+    <div class="modal" id="mahsulotModal">
+        <button class="modal-yop" id="modalYop">✕</button>
+        <img id="modalRasm" src="" alt="Tanlangan ruchka">
+        <div><span class="kichik-sarlavha">INKORA TO‘PLAMI</span><h2 id="modalNom"></h2><strong id="modalNarx"></strong><p>Nafis dizayn va kundalik foydalanish uchun ajoyib tanlov.</p><button id="modalQosh" class="asosiy-tugma">Savatchaga qo‘shish +</button></div>
+    </div>
+
+    <div class="bildirish" id="bildirish"></div>
+    <script src="script.js"></script>
+</body>
+</html>
